@@ -13,7 +13,7 @@
   "permissions": ["management", "https://*/*"],
   "content_scripts": [
     {
-      "matches": ["https://*.google.com/*"],
+      "matches": ["https://console.cloud.google.com/apis/credentials/*"],
       "css": ["src/inject/google.css"]
     },
     {
@@ -21,7 +21,7 @@
       "css": ["src/inject/github.css"]
     },
     {
-      "matches": ["https://www.netlify.com/*"],
+      "matches": ["https://app.netlify.com/user/applications/personal/*"],
       "css": ["src/inject/netlify.css"]
     },
     {
