@@ -1,0 +1,32 @@
+{
+  "name": "Tokenhider",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Hiding Tokens for the Paranoid Streamer since 2019",
+  "homepage_url": "https://johnlindquist.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": ["management", "https://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.google.com/*"],
+      "css": ["src/inject/google.css"]
+    },
+    {
+      "matches": ["https://github.com/settings/tokens"],
+      "css": ["src/inject/github.css"]
+    },
+    {
+      "matches": ["https://www.netlify.com/*"],
+      "css": ["src/inject/netlify.css"]
+    },
+    {
+      "matches": ["https://dashboard.pusher.com/apps/*"],
+      "css": ["src/inject/pusher.css"]
+    }
+  ]
+}
