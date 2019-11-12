@@ -1,6 +1,6 @@
 {
-  "name": "Tokenhider",
-  "version": "0.0.1",
+  "name": "stream-mode",
+  "version": "1.0.0",
   "manifest_version": 2,
   "description": "Hiding Tokens for the Paranoid Streamer since 2019",
   "homepage_url": "https://johnlindquist.com",
@@ -9,7 +9,7 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "default_locale": "en",
+
   "permissions": ["management", "https://*/*"],
   "content_scripts": [
     {
