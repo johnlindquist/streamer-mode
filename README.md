@@ -12,7 +12,7 @@ code#new-oauth-token {
 }
 ```
 
-![Text Alpha is Set to Zero](https://p-ZmFjNlQ.b3.n0.cdn.getcloudapp.com/items/04ukn65R/Image+2019-11-12+at+12.20.05+PM.png?v=1bc7bae0ee00f4616508cb5f8752e690)
+![Text Alpha is Set to Zero](./example.png)
 
 ## Warning
 
