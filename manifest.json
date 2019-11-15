@@ -27,6 +27,10 @@
     {
       "matches": ["https://dashboard.pusher.com/apps/*"],
       "css": ["src/inject/pusher.css"]
+    },
+    {
+      "matches": ["https://console.aws.amazon.com/iam/home/*"],
+      "css": ["src/inject/aws.css"]
     }
   ]
 }
